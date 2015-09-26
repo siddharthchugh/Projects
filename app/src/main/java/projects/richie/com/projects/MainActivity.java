@@ -8,9 +8,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity  implements View.OnClickListener{
+public class MainActivity extends AppCompatActivity {
 
-    private Button button_Spotify,button_Scores,button_Library,button_Build,button_Reader,button_Capstone;
+    private Button button_Spotify;
+    private Button button_Scores;
+    private Button button_Library;
+    private Button button_Build;
+    private Button button_Reader;
+    private Button button_Capstone;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,10 +102,4 @@ Toast.makeText(getApplicationContext(),"This button launches the Spotify app",To
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    public void onClick(View v) {
-
-        Toast.makeText(getApplicationContext(),"Clicked",Toast.LENGTH_SHORT).show();
-
-    }
 }

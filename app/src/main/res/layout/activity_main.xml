@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BBDEFB"
+     tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/app_title"
+        android:text="@string/page_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_title"
+      android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/linearLayout">
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Spotify Streamer"
+            android:background="@color/orange"
+            android:textColor="#fff"
+            android:id="@+id/spotify"
+android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scores App"
+            android:layout_centerHorizontal="true"
+
+            android:id="@+id/scroes"
+            android:background="@color/orange"
+            android:textColor="#fff"
+
+            android:layout_below="@+id/spotify"
+            android:layout_alignLeft="@+id/spotify"
+            android:layout_alignRight="@+id/spotify"
+
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Library App"
+            android:id="@+id/library"
+            android:background="@color/orange"
+            android:textColor="#fff"
+            android:layout_centerHorizontal="true"
+
+            android:layout_below="@+id/scroes"
+            android:layout_alignLeft="@+id/scroes"
+            android:layout_alignRight="@+id/scroes"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Build it bigger"
+            android:id="@+id/builtbig"
+            android:background="@color/orange"
+            android:textColor="#fff"
+            android:layout_centerHorizontal="true"
+
+            android:layout_below="@+id/library"
+            android:layout_alignLeft="@+id/library"
+            android:layout_alignRight="@+id/library"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XYZ Reader"
+            android:id="@+id/reader"
+            android:background="@color/orange"
+            android:textColor="#fff"
+            android:layout_below="@+id/builtbig"
+            android:layout_marginTop="10dp"
+            android:layout_alignLeft="@+id/builtbig"
+            android:layout_alignRight="@+id/builtbig"
+            android:layout_centerHorizontal="true"
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capstone My Own App"
+            android:id="@+id/capstone"
+            android:background="@color/red"
+            android:textColor="#fff"
+            android:layout_below="@+id/reader"
+android:layout_alignLeft="@+id/reader"
+            android:layout_alignRight="@+id/reader"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="10dp" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
